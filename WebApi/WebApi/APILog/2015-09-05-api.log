@@ -1,0 +1,8 @@
+2015-09-05 16:45:45.8209|ERROR|WebApi.Helpers.NLogger|Method: POST
+URL: http://localhost:50875/login
+Controller : WebApi.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : 
+Error: Login failed for user 'akhil'.  Reason: The password of the account has expired.
+
+

@@ -1,0 +1,48 @@
+2015-07-18 13:04:00.5575|INFO|WebApi.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:55959/v1/Products/Product/all?id=1
+Token: 38f41f23-3e51-4316-a235-8c660f40a51a
+Controller : WebApi.Controllers.ProductController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1}]}
+
+2015-07-18 13:04:22.4375|INFO|WebApi.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:55959/get/token
+Controller : WebApi.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2015-07-18 13:05:54.9163|INFO|WebApi.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:55959/login
+Controller : WebApi.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2015-07-18 13:08:56.9234|INFO|WebApi.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:55959/v1/Products/Product/all?id=1
+Token: 0f744a60-4625-458a-808d-3bf9f5e3d6b4
+Controller : WebApi.Controllers.ProductController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1}]}
+
+2015-07-18 13:10:29.4581|INFO|WebApi.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:55959/v1/Products/Product/all?id=12345
+Token: 0f744a60-4625-458a-808d-3bf9f5e3d6b4
+Controller : WebApi.Controllers.ProductController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":12345}]}
+
+2015-07-18 13:10:32.3149|ERROR|WebApi.Helpers.NLogger|Method: GET
+URL: http://localhost:55959/v1/Products/Product/all?id=12345
+Token: 0f744a60-4625-458a-808d-3bf9f5e3d6b4
+Controller : WebApi.Controllers.ProductController
+Action : Get
+Action Parameters : 
+Error: No product found for this id.
+Error Code: 1001
+
+

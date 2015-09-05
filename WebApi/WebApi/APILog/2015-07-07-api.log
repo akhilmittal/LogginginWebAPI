@@ -1,0 +1,33 @@
+2015-07-07 09:59:43.7082|INFO|WebApi.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:55959/v1/Products/Product/allproducts?id=12334
+Token: 1608f3d6-484a-4d8f-951e-d2f11f55f13d
+Controller : WebApi.Controllers.ProductController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":12334}]}
+
+2015-07-07 10:02:11.6642|INFO|WebApi.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:55959/get/token
+Controller : WebApi.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2015-07-07 10:02:51.0404|INFO|WebApi.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:55959/v1/Products/Product/allproducts?id=1254
+Token: 38f41f23-3e51-4316-a235-8c660f40a51a
+Controller : WebApi.Controllers.ProductController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1254}]}
+
+2015-07-07 10:02:56.0322|ERROR|WebApi.Helpers.NLogger|Method: GET
+URL: http://localhost:55959/v1/Products/Product/allproducts?id=1254
+Token: 38f41f23-3e51-4316-a235-8c660f40a51a
+Controller : WebApi.Controllers.ProductController
+Action : Get
+Action Parameters : 
+Error: No product found for this id
+Error Code: 1001
+
+

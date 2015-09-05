@@ -1,0 +1,58 @@
+2015-07-06 12:55:57.9599|INFO|WebApi.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:55959/v1/Products/Product/allproducts?id=1
+Token: 1608f3d6-484a-4d8f-951e-d2f11f55f13d
+Controller : WebApi.Controllers.ProductController
+Action : Get
+
+2015-07-06 13:34:23.4337|INFO|WebApi.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:55959/v1/Products/Product/all?id=1
+Token: 1608f3d6-484a-4d8f-951e-d2f11f55f13d
+Controller : WebApi.Controllers.ProductController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1}]}
+
+2015-07-06 13:39:59.7784|INFO|WebApi.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:55959/v1/Products/Product/all?id=12345
+Token: 1608f3d6-484a-4d8f-951e-d2f11f55f13d
+Controller : WebApi.Controllers.ProductController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":12345}]}
+
+2015-07-06 13:40:05.2033|ERROR|WebApi.Helpers.NLogger|Method: GET
+URL: http://localhost:55959/v1/Products/Product/all?id=12345
+Token: 1608f3d6-484a-4d8f-951e-d2f11f55f13d
+Controller : WebApi.Controllers.ProductController
+Action : Get
+Action Parameters : 
+Error: No product found for this id
+
+2015-07-06 13:08:56.9234|INFO|WebApi.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:55959/v1/Products/Product/all?id=1
+Token: 0f744a60-4625-458a-808d-3bf9f5e3d6b4
+Controller : WebApi.Controllers.ProductController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1}]}
+
+2015-07-06 13:10:29.4581|INFO|WebApi.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:55959/v1/Products/Product/all?id=12345
+Token: 0f744a60-4625-458a-808d-3bf9f5e3d6b4
+Controller : WebApi.Controllers.ProductController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":12345}]}
+
+2015-07-06 13:10:32.3149|ERROR|WebApi.Helpers.NLogger|Method: GET
+URL: http://localhost:55959/v1/Products/Product/all?id=12345
+Token: 0f744a60-4625-458a-808d-3bf9f5e3d6b4
+Controller : WebApi.Controllers.ProductController
+Action : Get
+Action Parameters : 
+Error: No product found for this id.
+Error Code: 1001
+
+
+
